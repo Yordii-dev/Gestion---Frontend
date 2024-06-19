@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.bg-image{
+    background-image: url(./assets/bg.jpg);
+        
+}
+
+.bg-blue-dark{
+    background-color: rgb(29, 77, 121);
+}
+.bg-blur{
+    color: white;
+    background: rgba(29, 77, 121, 0.5);
+    backdrop-filter: blur(10px); /* Aplica el desenfoque de fondo */    
+}
+
+.landing-matriculate{
+    background-color: #0887d1;    
+    font-size: 25px;
+    font-weight: 700;
+    width: max-content;
+}
+
+
+.container-sidebar{
+    width: 300px !important;
+    position: relative;
+    top: 0;
+    height: 100%;
+    bottom: 0; 
+}
+
+.cerrar-sesion-option{
+    position: absolute;
+    bottom: 0;    
+    left: 0;
+    width: 94.5%;
+}
+
+.container-photo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.active-option{
+    border: 1px solid white;    
+}
+
+.container-filter{
+    background-color: rgb(221, 221, 221);
+}
+
+.container-main{
+    height: 95vh;
+
+}
+
+.option{
+    box-sizing: border-box;}
+
+.option:hover{
+    border: .2px solid rgb(196, 197, 197);    
+}
+.anexo{
+    border-radius: 5px;
+    max-width: 200px;
+    height: 150px;
+}
+
+.anexo:hover{
+    background-color: aliceblue;
+}
+
+.anexo-active{
+    background-color: rgb(212, 227, 240);
+}
+.anexo img{
+    border-radius: 5px;
+    max-width: 60px;
+    height: 65px;
+}
+
+.anexo span{
+    font-size: 12px;
+}
+
+.courses-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 20px;
+}
+
+.course:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+
+}
+
+.container-sliders{
+    width: 70%;
+    height: 300px;
+}
+
+.slider-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
